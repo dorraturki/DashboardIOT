@@ -6,7 +6,7 @@ from influxdb_client import InfluxDBClient, Point, WritePrecision
 from influxdb_client.client.write_api import SYNCHRONOUS
 
 # Paramètres MQTT
-BROKER = "broker.hivemq.com"
+BROKER = "" #Replace with broker name
 PORT = 1883
 TOPICS = [
     ("/Courant1", 0),
@@ -17,10 +17,10 @@ TOPICS = [
 ]
 
 # Paramètres InfluxDB Cloud
-INFLUXDB_URL = "https://us-east-1-1.aws.cloud2.influxdata.com"  # Replace with your InfluxDB Cloud region URL
-INFLUXDB_TOKEN = "2VMfJddGfWuSNNJbMyz6rSgQD7gCKSvkdnixFei8urFXlkYk18gz2rsP8TiBgwXMJ7BNL0CWIIQMY3w3gDQWhQ=="  # Replace with your InfluxDB Cloud API token
-INFLUXDB_ORG = "Study"  # Replace with your InfluxDB organization
-INFLUXDB_BUCKET = "electric_data"  # Replace with your bucket name
+INFLUXDB_URL = ""  # Replace with your InfluxDB Cloud region URL
+INFLUXDB_TOKEN = ""  # Replace with your InfluxDB Cloud API token
+INFLUXDB_ORG = ""  # Replace with your InfluxDB organization
+INFLUXDB_BUCKET = ""  # Replace with your bucket name
 
 
 # Variables de données

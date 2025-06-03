@@ -5,7 +5,7 @@ import sqlite3
 from datetime import datetime
 
 # Paramètres MQTT
-BROKER = "broker.hivemq.com" 
+BROKER = "" #Replace with broker name
 PORT = 1883
 TOPICS = [
     ("/Courant1", 0),
